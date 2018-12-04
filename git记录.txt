@@ -1,0 +1,26 @@
+/*git 记录文本*/
+/*
+创建用户名和邮箱
+*/
+git config --global user.name "用户名"
+git config --global user.email "你的邮箱"
+
+/*创建一个空文件夹*/
+mkdir "文件夹名称"
+/*切换进入到文件夹路径*/
+cd "文件夹名称"
+/*初始化仓库*/
+git init
+/*查看状态*/
+git status
+/*把文件从工作区添加到暂存取，暂存区的作用：减少提交的版本次数，方便管理*/
+git add "要提交的文件名"
+/*从暂存区添加到历史区*/
+git commit -m"添加的文件记录"
+/*查看提交记录*/
+git log
+
+/*常用命令*/
+ls //列出所有不隐藏的文件
+ls -a//列出所有的文件，包括隐藏文件
+git config --global -l //列出所有的配置项
